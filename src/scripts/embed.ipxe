@@ -1,0 +1,4 @@
+#!ipxe
+
+dhcp
+chain tftp://10.10.10.17/undionly.kpxe || shell
